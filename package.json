@@ -19,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "mv ./build/index.html ./build/200.html && surge build"
+    "prep": "mv ./build/index.html ./build/200.html",
+    "deploy": "npm run prep && surge build",
+    "redeploy": "surge build"
   },
   "license": "MIT"
 }
