@@ -1,0 +1,91 @@
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  padding: 0 1rem 100px;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  color: #84bd00;
+}
+
+.list {
+  margin: 2rem 2rem 4rem;
+}
+
+.dt {
+  margin-bottom: .5rem;
+  border-bottom: rgba(136, 137, 140, 0.24);
+  transition: all .3s ease-in-out;
+}
+
+.dtActive {
+  composes: dt;
+  color: #84bd00;
+}
+
+.dd {
+  margin: 0 0 2rem 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  padding: .5rem 1rem;
+  color: #3e3e40;
+  vertical-align: middle;
+  background-color: #dfe0e6;
+  background-image: none;
+  border: 1px solid #dfe0e6;
+  border-radius: 3px;
+  transition: all .1s ease-in-out;
+}
+
+.isValidFalse {
+  margin: 10px;
+  text-align: center;
+  color: red;
+  transition: all .3s ease-in-out;
+}
+
+.isValidTrue {
+  composes: isValidFalse;
+  opacity: 0;
+}
+
+.button {
+  display: block;
+  margin: 2rem auto 0;
+  padding: .5rem 1rem;
+  font-size: 1.3em;
+  background: #648f00;
+  color: #dfe0e6;
+  border-radius: 500px;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #84bd00;
+  color: #fff;
+}
+
+.disclaimer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  text-align: center;
+  font-size: .7em;
+}
+
+.disclaimer p {
+  margin: 0 0 3px;
+}

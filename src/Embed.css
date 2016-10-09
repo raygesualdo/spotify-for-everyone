@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  max-width: 420px;
+  height: 100vh;
+  max-height: 500px;
+}
+
+.iframe {
+  width: 100%;
+  height: calc(100% - 32px);
+  border: 0;
+}
+
+.link {
+  display: block;
+  margin: 4px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.link svg {
+  vertical-align: middle;
+}
+
+.link path {
+  fill: currentColor;
+}
