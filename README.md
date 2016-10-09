@@ -8,5 +8,6 @@ Spotify for Everyone is a web app that allows you to input a Spotify link (in a 
 - [ ] Add information about contributing
 - [ ] Add bookmarklet for Spotify's web player
 - [ ] Add more complete tests
+- [ ] Add FB and Twitter meta tags
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
